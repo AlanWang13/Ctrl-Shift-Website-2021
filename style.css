@@ -1,0 +1,353 @@
+/* BUILDINGS & PEOPLE */
+
+#library {
+  position: absolute;
+  left: 66.64vw ;
+  top: 7.5vw;
+  width: 26vw;
+  height: auto;
+  transform: rotate(-1deg);
+}
+#library:hover{ /* Shadows when hovered */
+  -webkit-filter: drop-shadow(8px 8px 8px #222); /* Change px to change shadow size */
+  filter: drop-shadow(8px 8px 8px #222);
+}
+  
+#hosptial {
+  position: absolute;
+  left: 25vw ;
+  top: 4.17vw;
+  width: 20vw;
+  height: auto;
+}
+#hosptial:hover{ 
+  -webkit-filter: drop-shadow(8px 8px 8px #222);
+  filter: drop-shadow(8px 8px 8px #222);
+}
+
+#dog_walker {
+  position: absolute;
+  left: 45.82vw ;
+  top: 16.66vw;
+  width: 20vw;
+  height: auto;
+}
+#dog_walker img.hidden { /* Replaces image & opaques the surounding when hovered on*/
+  position: absolute;
+  visibility: hidden;
+  left: -1vw ;
+  top: -1vw;
+  width: 8.5vw;
+  height: auto;
+  object-fit: contain;
+  opacity: 0;
+  transition: opacity .2s;
+  background: rgba(0, 0, 0, 0.7); /* makes background opaque */
+  border-radius: 25px;
+}
+#dog_walker:hover img.hidden { /* makes sad photo visible */
+  opacity: 1;
+  visibility: visible;
+}
+#dog_walker:hover img.visible { /*makes happy photo hidden */
+  opacity: 0;
+}
+
+#car_driver {
+  position: absolute;
+  left: 2.5vw ;
+  top: 18.326vw;
+  width: 20vw;
+  height: auto;
+}
+#car_driver img.hidden { /* Replaces image & opaques the surounding when hovered on*/
+  position: absolute;
+  visibility: hidden;
+  left: 0vw;
+  top: 0vw;
+  width: 20vw;
+  height: auto;
+  object-fit: contain;
+  opacity: 0;
+  transition: opacity .2s;
+  background: rgba(0, 0, 0, 0.7); /* makes background opaque */
+  border-radius: 25px;
+}
+#car_driver:hover img.hidden {
+  opacity: 1;
+  visibility: visible;
+}
+#car_driver:hover img.visible {
+  opacity: 0;
+}
+
+  
+#solo_walker {
+  position: absolute;
+  left: 28.32vw;
+  top: 30.82vw;
+  width: 16vw;
+  height: auto;
+}
+#solo_walker img.visible { /* size for happy photo*/
+  width: 7vw;
+  height: auto;
+}
+#solo_walker img.hidden { /* Replaces image & opaques the surounding when hovered on*/
+  position: absolute;
+  left: -3.5vw;
+  top: -2.6vw;
+  visibility: hidden;
+  opacity: 0;
+  height: auto;
+  transition: opacity .2s;
+  background: rgba(0, 0, 0, 0.7); /* makes background opaque */
+  border-radius: 25px;
+}
+#solo_walker:hover img.hidden { /* makes sad photo visible */
+  opacity: 1;
+  visibility: visible;
+}
+#solo_walker:hover img.visible { /*makes happy photo hidden */
+  opacity: 0;
+}
+
+#couple {
+  position: absolute;
+  left: 20rem ;
+  top: 20rem;
+  width: 7vw;
+  height: auto;
+}
+
+/* BACKGROUND */
+body {
+  background: url("images/road 1920 1080.jpg") no-repeat;
+  background-size: cover;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* NAVIGATION BAR */
+
+/* Center all navigation buttons */
+.button {
+  text-decoration: none;
+  text-align: center;
+}
+
+/* Locaiton of menu button */
+#nav_bar_button{
+  position:absolute;
+  left:0.5vw;
+  top:0.5vw;
+  width:3.12vw;
+}
+
+/* location of navigation button texts */
+#nav_bar_content{
+  position:absolute;
+  width:4.165vw;
+  height:4.165vw;
+  border:.26vw solid orange;
+  border-radius:5.2vw;
+  background:orange;
+  transition:.6s;
+}
+
+/* How tall the drop down menu would be */
+#nav_bar_content:hover{
+  height:20vw;
+}
+
+/* How the button would look like */
+#click_me{
+  position:absolute;
+  top:0vw;
+  background:transparent;
+  width:3.9vw;
+  color:transparent;
+  padding-top:0.26vw;
+  padding-bottom:0.26vw;
+  font-family:Georgia, serif;
+  font-size:0.73vw;
+  border:0.13vw solid transparent;
+  border-radius:5.2vw;
+  cursor:pointer;
+  transition:.6s;
+}
+
+/* Location of button when hovering menu button */
+#nav_bar_content:hover > #click_me{
+  top:4.685vw;
+  color:black;
+  background:dimgrey;
+  padding-bottom:0.26vw;
+}
+
+
+#home_btn{
+  position:absolute;
+  top:0vw;
+  background:transparent;
+  width:3.9vw;
+  color:transparent;
+  padding-top:0.26vw;
+  padding-bottom:0.26vw;
+  font-family:Georgia, serif;
+  font-size:0.73vw;
+  border:0.13vw solid transparent;
+  border-radius:5.2vw;
+  cursor:pointer;
+  transition:.6s;
+}
+
+#nav_bar_content:hover > #home_btn{
+  top:7.28vw;
+  color:black;
+  background:dimgrey;
+  padding-bottom:0.26vw;
+}
+
+#help_btn{
+  position:absolute;
+  top:0vw;
+  background:transparent;
+  width:3.9vw;
+  color:transparent;
+  padding-top:0.26vw;
+  padding-bottom:0.26vw;
+  font-family:Georgia, serif;
+  font-size:0.73vw;
+  border:0.13vw solid transparent;
+  border-radius:5.2vw;
+  cursor:pointer;
+  transition:.6s;
+}
+
+#nav_bar_content:hover > #help_btn{
+  top:9.89vw;
+  color:black;
+  background:dimgrey;
+  padding-bottom:0.26vw;
+}
+
+#info_btn{
+  position:absolute;
+  top:0vw;
+  background:transparent;
+  width:3.9vw;
+  color:transparent;
+  padding-top:0.26vw;
+  padding-bottom:0.26vw;
+  font-family:Georgia, serif;
+  font-size:0.73vw;
+  border:0.13vw solid transparent;
+  border-radius:5.2vw;
+  cursor:pointer;
+  transition:.6s;
+}
+
+#nav_bar_content:hover > #info_btn{
+  top:12.49vw;
+  color:black;
+  background:dimgrey;
+  padding-bottom:0.26vw;
+}
+
+
+#about_us_btn{
+  position:absolute;
+  top:0vw;
+  background:transparent;
+  width:3.9vw;
+  color:transparent;
+  padding-top:0.26vw;
+  padding-bottom:0.26vw;
+  font-family:Georgia, serif;
+  font-size:0.73vw;
+  border:0.13vw solid transparent;
+  border-radius:5.2vw;
+  cursor:pointer;
+  transition:.6s;
+}
+
+#nav_bar_content:hover > #about_us_btn{
+  top:15vw;
+  color:black;
+  background:dimgrey;
+  padding-bottom:0.26vw;
+}
+
+/* POP UP */
+
+/* Pop up is invisible unless the button clicked */
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7); /* makes background opaque */
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+
+/* Makes the pop up surrounding opaque*/
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* All of the pop up contents */
+.popup {
+  margin: 32.79vw auto;
+  padding: 1.04vw;
+  background: #fff;
+  border-radius: 0.26vw;
+  width: 30%;
+  position: relative;
+  transition: all 0s ease-in-out;
+}
+
+/* Pop up title */
+.popup h2 {
+  text-align:center;
+  margin-top: 0;
+  color: #333;
+  font-family: Tahoma, Arial, sans-serif;
+  font-size:1.25vw;
+}
+
+/* Pop up close button */
+.popup .close {
+  position: absolute;
+  top: 1.04vw;
+  right: 1.56vw;
+  transition: all 200ms;
+  font-size: 1.56vw;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+
+/* Color of close button when hovered on */
+.popup .close:hover {
+  color: rgb(160, 165, 162);
+}
+
+/* Keeps information inside the pop up box */
+.popup .pop_up_content {
+  max-height: 30%;
+  overflow: auto;
+  font-size:1vw;
+}
+
+/* Pop up bulk information */
+.pop_up_content {
+  text-align: center;
+}

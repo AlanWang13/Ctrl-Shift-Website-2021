@@ -1,0 +1,126 @@
+/* NAVIGATION BUTTONS */
+
+/* Center all navigation buttons */
+.button {
+  text-decoration: none;
+  text-align: center;
+}
+
+/* Locaiton of menu button */
+#nav_bar_button{
+  position:absolute;
+  left:10px;
+  top:10px;
+  width:60px;
+}
+
+/* location of navigation button texts */
+#nav_bar_content{
+  position:absolute;
+  width:80px;
+  height:80px;
+  border:5px solid orange;
+  border-radius:100px;
+  background:orange;
+  transition:.6s;
+}
+
+/* How tall the drop down menu would be */
+#nav_bar_content:hover{
+  height:300px;
+}
+
+/* How the button would look like */
+#home_btn{
+  position:absolute;
+  top:0px;
+  background:transparent;
+  width:75px;
+  color:transparent;
+  padding-top:5px;
+  padding-bottom:5px;
+  font-family:Georgia, serif;
+  font-size:15px;
+  border:2.5px solid transparent;
+  border-radius:100px;
+  cursor:pointer;
+  transition:.6s;
+}
+
+/* Location of button when hovering menu button */
+#nav_bar_content:hover > #home_btn{
+  top:90px;
+  color:black;
+  background:dimgrey;
+  padding-bottom:5px;
+}
+
+#help_btn{
+  position:absolute;
+  top:0px;
+  background:transparent;
+  width:75px;
+  color:transparent;
+  padding-top:5px;
+  padding-bottom:5px;
+  font-family:Georgia, serif;
+  font-size:15px;
+  border:2.5px solid transparent;
+  border-radius:100px;
+  cursor:pointer;
+  transition:.6s;
+}
+
+#nav_bar_content:hover > #help_btn{
+  top:140px;
+  color:black;
+  background:dimgrey;
+  padding-bottom:5px;
+}
+
+#info_btn{
+  position:absolute;
+  top:0px;
+  background:transparent;
+  width:75px;
+  color:transparent;
+  padding-top:5px;
+  padding-bottom:5px;
+  font-family:Georgia, serif;
+  font-size:15px;
+  border:2.5px solid transparent;
+  border-radius:100px;
+  cursor:pointer;
+  transition:.6s;
+}
+
+#nav_bar_content:hover > #info_btn{
+  top:190px;
+  color:black;
+  background:dimgrey;
+  padding-bottom:5px;
+}
+
+
+#about_us_btn{
+  position:absolute;
+  top:0px;
+  background:transparent;
+  width:75px;
+  color:transparent;
+  padding-top:5px;
+  padding-bottom:5px;
+  font-family:Georgia, serif;
+  font-size:15px;
+  border:2.5px solid transparent;
+  border-radius:100px;
+  cursor:pointer;
+  transition:.6s;
+}
+
+#nav_bar_content:hover > #about_us_btn{
+  top:240px;
+  color:black;
+  background:dimgrey;
+  padding-bottom:5px;
+}
