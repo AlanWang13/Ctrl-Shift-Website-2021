@@ -76,6 +76,28 @@ img {
 #eating_disorder_story {
 }
 
-.anxiety_1 {
-  order: 1;
+/* The order of the books */
+/*brown*/
+.depression_1 {order: 7;}
+.depression_2 {order: 2;}
+
+/*green*/
+.schizo_1 {order: 9;}
+.schizo_2 {order: 6;}
+
+/*red*/
+.anxiety_1 {order: 11;}
+.anxiety_2 {order: 5;}
+
+/*blue*/
+.ptsd_1 {order: 8;}
+.ptsd_2 {order: 1;}
+
+/*yellow*/
+.eating_disorder_1 {order: 10;}
+.eating_disorder_2 {order: 3;}
+
+.top_gap{
+  padding: 10vw;
+  order: 4;
 }
