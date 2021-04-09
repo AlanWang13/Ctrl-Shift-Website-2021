@@ -1,5 +1,81 @@
-body {
-  background: url("../images/bookshelf2.png") no-repeat center fixed;
-  background-size: 100% 100%;
+/*BOOK SHELF LAYOUT
+ Stories(Top)
+---------------
+  Info(Bottom)
+*/
 
+body {
+  background: url("../images/bookshelf.png")repeat-x center fixed;
+  background-size: 89vw 51vw;
+  background-color: black;
+}
+
+/* Atributes for every book */
+.book {
+  height: auto;
+  width: 3.5vw;
+  padding: 1vw
+}
+.flex_container {
+  display: flex;
+  margin: 2.1vw;
+  justify-content: center; /*Allign books to center */
+  flex-wrap: wrap; /* Keeps images on screen */
+  width: 85vw;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* brown books */
+#depression {
+  height: auto;
+  width: 3.49vw;
+  order: 3;
+}
+#depression_story {
+  height: auto;
+  width: 3.49vw;
+}
+
+/* green books */
+#schizo {
+  height: auto;
+  width: 3.37vw;
+}
+#schizo_story {
+  height: auto;
+  width: 3.37vw;
+}
+
+/* red books */
+#anxiety {
+  height: auto;
+  width: 3.37vw;
+}
+#anxiety_story {
+  height: auto;
+  width: 3.37vw;
+}
+
+/* blue books */
+#ptsd {
+  height: auto;
+  width: 3.37vw;
+}
+#ptsd_story {
+  height: auto;
+  width: 3.37vw;
+}
+
+/* yellow books */
+#eating_disorder {
+}
+#eating_disorder_story {
+}
+
+.anxiety_1 {
+  order: 1;
 }
