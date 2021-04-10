@@ -1,4 +1,4 @@
-/* NAVIGATION BUTTONS */
+/* NAVIGATION BAR */
 
 /* Center all navigation buttons */
 .button {
@@ -9,118 +9,142 @@
 /* Locaiton of menu button */
 #nav_bar_button{
   position:absolute;
-  left:10px;
-  top:10px;
-  width:60px;
+  left:0.5vw;
+  top:0.5vw;
+  width:3.12vw;
 }
 
 /* location of navigation button texts */
 #nav_bar_content{
   position:absolute;
-  width:80px;
-  height:80px;
-  border:5px solid orange;
-  border-radius:100px;
+  width:4.165vw;
+  height:4.165vw;
+  border:.26vw solid orange;
+  border-radius:5.2vw;
   background:orange;
   transition:.6s;
 }
 
 /* How tall the drop down menu would be */
 #nav_bar_content:hover{
-  height:300px;
+  height:16.49vw;
 }
 
 /* How the button would look like */
-#home_btn{
+#click_me{
   position:absolute;
-  top:0px;
+  top:0vw;
   background:transparent;
-  width:75px;
+  width:3.9vw;
   color:transparent;
-  padding-top:5px;
-  padding-bottom:5px;
+  padding-top:0.26vw;
+  padding-bottom:0.26vw;
   font-family:Georgia, serif;
-  font-size:15px;
-  border:2.5px solid transparent;
-  border-radius:100px;
+  font-size:0.73vw;
+  border:0.13vw solid transparent;
+  border-radius:5.2vw;
   cursor:pointer;
   transition:.6s;
 }
 
 /* Location of button when hovering menu button */
-#nav_bar_content:hover > #home_btn{
-  top:90px;
+#nav_bar_content:hover > #click_me{
+  top:4.685vw;
   color:black;
   background:dimgrey;
-  padding-bottom:5px;
+  padding-bottom:0.26vw;
+}
+
+
+#home_btn{
+  position:absolute;
+  top:0vw;
+  background:transparent;
+  width:3.9vw;
+  color:transparent;
+  padding-top:0.26vw;
+  padding-bottom:0.26vw;
+  font-family:Georgia, serif;
+  font-size:0.73vw;
+  border:0.13vw solid transparent;
+  border-radius:5.2vw;
+  cursor:pointer;
+  transition:.6s;
+}
+
+#nav_bar_content:hover > #home_btn{
+  top:4.685vw;
+  color:black;
+  background:dimgrey;
+  padding-bottom:0.26vw;
 }
 
 #help_btn{
   position:absolute;
-  top:0px;
+  top:0vw;
   background:transparent;
-  width:75px;
+  width:3.9vw;
   color:transparent;
-  padding-top:5px;
-  padding-bottom:5px;
+  padding-top:0.26vw;
+  padding-bottom:0.26vw;
   font-family:Georgia, serif;
-  font-size:15px;
-  border:2.5px solid transparent;
-  border-radius:100px;
+  font-size:0.73vw;
+  border:0.13vw solid transparent;
+  border-radius:5.2vw;
   cursor:pointer;
   transition:.6s;
 }
 
 #nav_bar_content:hover > #help_btn{
-  top:140px;
+  top:7.289vw;
   color:black;
   background:dimgrey;
-  padding-bottom:5px;
+  padding-bottom:0.26vw;
 }
 
 #info_btn{
   position:absolute;
-  top:0px;
+  top:0vw;
   background:transparent;
-  width:75px;
+  width:3.9vw;
   color:transparent;
-  padding-top:5px;
-  padding-bottom:5px;
+  padding-top:0.26vw;
+  padding-bottom:0.26vw;
   font-family:Georgia, serif;
-  font-size:15px;
-  border:2.5px solid transparent;
-  border-radius:100px;
+  font-size:0.73vw;
+  border:0.13vw solid transparent;
+  border-radius:5.2vw;
   cursor:pointer;
   transition:.6s;
 }
 
 #nav_bar_content:hover > #info_btn{
-  top:190px;
+  top:9.89vw;
   color:black;
   background:dimgrey;
-  padding-bottom:5px;
+  padding-bottom:0.26vw;
 }
 
 
 #about_us_btn{
   position:absolute;
-  top:0px;
+  top:0vw;
   background:transparent;
-  width:75px;
+  width:3.9vw;
   color:transparent;
-  padding-top:5px;
-  padding-bottom:5px;
+  padding-top:0.26vw;
+  padding-bottom:0.26vw;
   font-family:Georgia, serif;
-  font-size:15px;
-  border:2.5px solid transparent;
-  border-radius:100px;
+  font-size:0.73vw;
+  border:0.13vw solid transparent;
+  border-radius:5.2vw;
   cursor:pointer;
   transition:.6s;
 }
 
 #nav_bar_content:hover > #about_us_btn{
-  top:240px;
+  top:12.49vw;
   color:black;
   background:dimgrey;
-  padding-bottom:5px;
+  padding-bottom:0.26vw;
 }

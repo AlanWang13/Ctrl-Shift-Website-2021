@@ -5,7 +5,7 @@
 */
 
 body {
-  background: url("../images/bookshelf.png")repeat-x center fixed;
+  background: url("../images/bookshelf.png")repeat-x center top fixed;
   background-size: 89vw 51vw;
   background-color: black;
 }
@@ -16,12 +16,16 @@ body {
   width: 3.5vw;
   padding: 1vw
 }
+
 .flex_container {
   display: flex;
-  margin: 2.1vw;
-  justify-content: center; /*Allign books to center */
+  margin-top: 2vw;
+  margin-left: 7.9vw;
+  justify-content: flex-start; /*Allign books to center */
   flex-wrap: wrap; /* Keeps images on screen */
-  width: 85vw;
+  width: 83vw;
+  border: solid;
+  border-color: white;
 }
 
 img {
@@ -98,6 +102,6 @@ img {
 .eating_disorder_2 {order: 3;}
 
 .top_gap{
-  padding: 10vw;
+  padding: 27.7vw;
   order: 4;
 }
