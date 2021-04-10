@@ -24,8 +24,10 @@ body {
   justify-content: flex-start; /*Allign books to center */
   flex-wrap: wrap; /* Keeps images on screen */
   width: 83vw;
+  /* testing
   border: solid;
   border-color: white;
+  */
 }
 
 img {
