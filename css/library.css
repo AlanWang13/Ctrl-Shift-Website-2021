@@ -4,6 +4,7 @@
   Info(Bottom)
 */
 
+
 body {
   background: url("../images/bookshelf.png")repeat-x center top fixed;
   background-size: 89vw 51vw;
@@ -13,97 +14,179 @@ body {
 /* Atributes for every book */
 .book {
   height: auto;
-  width: 3.5vw;
+  width: 3.39vw;
   padding: 1vw
 }
 
+/*Container holds all the books */
 .flex_container {
   display: flex;
   margin-top: 2vw;
   margin-left: 7.9vw;
   justify-content: flex-start; /*Allign books to center */
   flex-wrap: wrap; /* Keeps images on screen */
+  height: 48vw;
   width: 83vw;
-  /* testing
-  border: solid;
-  border-color: white;
-  */
+
 }
 
-img {
-  max-width: 100%;
-  height: auto;
-}
 
+/* Book Location */
 /* brown books */
-#depression {
+#depression_info_book {
   height: auto;
   width: 3.49vw;
-  order: 3;
+  
 }
-#depression_story {
+#depression_story_book {
   height: auto;
   width: 3.49vw;
 }
 
 /* green books */
-#schizo {
+#schizo_info__book {
   height: auto;
-  width: 3.37vw;
+  width: 1px;
 }
-#schizo_story {
+#schizo_story_book {
   height: auto;
   width: 3.37vw;
 }
 
 /* red books */
-#anxiety {
+#anxiety_info_book {
   height: auto;
   width: 3.37vw;
 }
-#anxiety_story {
+#anxiety_story_book {
   height: auto;
   width: 3.37vw;
 }
 
 /* blue books */
-#ptsd {
+#ptsd_info_book {
   height: auto;
   width: 3.37vw;
 }
-#ptsd_story {
+#ptsd_story_book {
   height: auto;
   width: 3.37vw;
 }
 
 /* yellow books */
-#eating_disorder {
+#eating_disorder_info_book {
+  height: auto;
+  width: 3.49vw;
 }
-#eating_disorder_story {
+#eating_disorder_story_book{
+  height: auto;
+  width: 3.49vw;
 }
 
 /* The order of the books */
+
 /*brown*/
-.depression_1 {order: 7;}
-.depression_2 {order: 2;}
+.depression_1 {
+  order: 7;
+  height: 8vw;
+  }
+.depression_2 {
+  order: 2;
+  height: 9vw;}
 
 /*green*/
-.schizo_1 {order: 9;}
-.schizo_2 {order: 6;}
+.schizo_1 {
+  order: 10;
+  height: 9vw;
+  }
+.schizo_2 {
+  order: 6;
+  height: 9vw;
+}
 
 /*red*/
-.anxiety_1 {order: 11;}
-.anxiety_2 {order: 5;}
+.anxiety_1 {
+  order: 12;
+  height: 9vw;
+  }
+.anxiety_2 {
+  order: 5;
+  height: 9vw;
+  }
 
 /*blue*/
-.ptsd_1 {order: 8;}
-.ptsd_2 {order: 1;}
+.ptsd_1 {
+  order: 8;
+  height: 9vw;
+  }
+.ptsd_2 {
+  order: 1;
+  height: 9vw;
+  }
 
 /*yellow*/
-.eating_disorder_1 {order: 10;}
-.eating_disorder_2 {order: 3;}
+.eating_disorder_1 {
+  order: 11;
+  height: 9vw;
+  }
+.eating_disorder_2 {
+  order: 3;
+  height: 9vw;
+  }
 
+/* Size of gap on top shelf */
 .top_gap{
-  padding: 27.7vw;
+  padding-left: 55vw;
+  height: 1vw;
   order: 4;
+}
+
+/* Size of gap of top shelf */
+.bot_gap {
+  padding-left: 55vw;
+  height: 1vw;
+  order: 9;
+}
+
+/* POP UP */
+#book_template_container {
+  top: 0vw;
+  left: 0vw;
+  position: fixed;
+  visibility: hidden;
+  opacity: 0;
+  background: rgba(0, 0, 0, 0.7); /* makes background opaque */
+  transition: opacity 500ms;
+  height: 100vw;
+  width: 100vw;
+}
+
+#book_template_container:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* Pop up close button */
+#book_template_container .close {
+  position: absolute;
+  top: 5vw;
+  right: 24.5vw;
+  transition: 0s;
+  font-size: 3vw;
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+}
+
+/* Color of close button when hovered on */
+#book_template_container .close:hover {
+  color:gray;
+}
+
+#book_template_image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -5vw;
+  width: 65%;
 }
