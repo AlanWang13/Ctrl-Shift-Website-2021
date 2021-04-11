@@ -4,21 +4,21 @@
   Info(Bottom)
 */
 
-
+/* background */
 body {
   background: url("../images/bookshelf.png")repeat-x center top fixed;
   background-size: 89vw 51vw;
   background-color: black;
 }
 
-/* Atributes for every book */
+/* atributes for every book */
 .book {
   height: auto;
   width: 3.39vw;
   padding: 1vw
 }
 
-/*Container holds all the books */
+/*container that holds all the books */
 .flex_container {
   display: flex;
   margin-top: 2vw;
@@ -31,7 +31,8 @@ body {
 }
 
 
-/* Book Location */
+/* SIZE OF BOOKS */
+
 /* brown books */
 #depression_info_book {
   height: auto;
@@ -83,7 +84,7 @@ body {
   width: 3.49vw;
 }
 
-/* The order of the books */
+/* ORGANIZATION OF BOOKS */
 
 /*brown*/
 .depression_1 {
@@ -134,14 +135,14 @@ body {
   height: 9vw;
   }
 
-/* Size of gap on top shelf */
+/* size of gap on top shelf */
 .top_gap{
   padding-left: 55vw;
   height: 1vw;
   order: 4;
 }
 
-/* Size of gap of top shelf */
+/* size of gap of bottom shelf */
 .bot_gap {
   padding-left: 55vw;
   height: 1vw;
@@ -149,7 +150,9 @@ body {
 }
 
 /* POP UP */
-#book_template_container {
+
+/* atributes of container that holds all of the images and contents */
+.book_template_container {
   top: 0vw;
   left: 0vw;
   position: fixed;
@@ -161,13 +164,8 @@ body {
   width: 100vw;
 }
 
-#book_template_container:target {
-  visibility: visible;
-  opacity: 1;
-}
-
-/* Pop up close button */
-#book_template_container .close {
+/* pop up close button */
+.book_template_container .close {
   position: absolute;
   top: 5vw;
   right: 24.5vw;
@@ -178,15 +176,87 @@ body {
   color: black;
 }
 
-/* Color of close button when hovered on */
-#book_template_container .close:hover {
+/* color of close button when hovered on */
+.book_template_container .close:hover {
   color:gray;
 }
 
-#book_template_image {
+.hidden_image {
   display: block;
   margin-left: auto;
   margin-right: auto;
   margin-top: -5vw;
   width: 65%;
+}
+
+.left_col {
+  position: absolute;
+  top: 6vw;
+  width: 23vw;
+  height: 37vw;
+  color: black;
+  font-size: 0.9vw;
+  border: solid green;
+  left: 25.4vw;
+}
+
+.right_col {
+  position: absolute;
+  top: 6vw;
+  width: 23.5vw;
+  height: 37vw;
+  color: black;
+  font-size: 0.9vw;
+  border: solid yellow;
+  right: 24.7vw;
+}
+
+/* display text and content when clicking on a book */
+#depression_info:target{
+  visibility: visible;
+  opacity: 1;
+}
+#depression_story:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+#schizo_info:target{
+  visibility: visible;
+  opacity: 1;
+}
+#schizo_story:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+#anxiety_info:target{
+  visibility: visible;
+  opacity: 1;
+}
+#anxiety_story:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+#ptsd_info:target{
+  visibility: visible;
+  opacity: 1;
+}
+#ptsd_story:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+#eating_disorder_info:target{
+  visibility: visible;
+  opacity: 1;
+}
+#eating_disorder_story:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+h1{
+  text-align: center;
 }
