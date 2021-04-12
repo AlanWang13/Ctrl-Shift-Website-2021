@@ -4,6 +4,9 @@
   Info(Bottom)
 */
 
+/* Font */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+
 /* background */
 body {
   background: url("../images/bookshelf.png")repeat-x center top fixed;
@@ -16,6 +19,24 @@ body {
   height: auto;
   width: 3.39vw;
   padding: 1vw
+}
+
+.book:hover {
+  -webkit-filter: drop-shadow(8px 8px 8px #222);
+  filter: drop-shadow(8px 8px 8px #222);
+}
+
+
+/* atributes for every book title */
+.title {
+  position: absolute;
+  top: 1vw;
+  left: 1vw;
+  font-size: 1.5vw;
+  transform: rotate(90deg);
+  font-weight: bold;
+  color: black;
+  font-family: 'Noto Sans JP', sans-serif;
 }
 
 /*container that holds all the books */
@@ -170,7 +191,7 @@ body {
   top: 5vw;
   right: 24.5vw;
   transition: 0s;
-  font-size: 3vw;
+  font-size: 2vw;
   font-weight: bold;
   text-decoration: none;
   color: black;
@@ -181,6 +202,7 @@ body {
   color:gray;
 }
 
+/* where pop out book would be displayed */
 .hidden_image {
   display: block;
   margin-left: auto;
@@ -189,6 +211,7 @@ body {
   width: 65%;
 }
 
+/* left colloum of book */
 .left_col {
   position: absolute;
   top: 6vw;
@@ -196,10 +219,11 @@ body {
   height: 37vw;
   color: black;
   font-size: 0.9vw;
-  border: solid green;
   left: 25.4vw;
 }
 
+
+/* right colloum of book */
 .right_col {
   position: absolute;
   top: 6vw;
@@ -207,7 +231,6 @@ body {
   height: 37vw;
   color: black;
   font-size: 0.9vw;
-  border: solid yellow;
   right: 24.7vw;
 }
 
@@ -259,4 +282,60 @@ body {
 
 h1{
   text-align: center;
+}
+
+p {
+  text-indent: 2vw;
+}
+
+/* BOOK TITLES */
+#depression_info_title{
+  position: absolute;
+  top:32vw; 
+  left:4.8vw;
+}
+#depression_story_title{
+  position: absolute;
+  top:8vw; 
+  left:9.7vw;
+}
+#schizo_info_title{
+  position: absolute;
+  top:32vw;
+  left:69.5vw;
+}
+#schizo_story_title{
+  position: absolute;
+  top:8vw;
+  left: 80vw;
+}
+#anxiety_info_title{
+  position: absolute;
+  top:32vw;
+  left: 82.8vw;
+}
+#anxiety_story_title{
+  position: absolute;
+  top:8vw;
+  left: 77vw;
+}
+#ptsd_info_title{
+  position: absolute;
+  top:32vw; 
+  left:12.4vw;
+}
+#ptsd_story_title{
+  position: absolute;
+  top:8vw; 
+  left: 6.4vw;
+}
+#eating_disorder_info_title{
+  position: absolute;
+  top:32vw;
+  left: 74.5vw;
+}
+#eating_disorder_story_title{
+  position: absolute;
+  top:8vw;
+  left: 13.6vw; 
 }
