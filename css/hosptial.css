@@ -1,5 +1,105 @@
+/* no scrolling */
+html{
+  overflow: hidden;
+}
+
+/* makes images not popup in front of opaque background */
+img{
+  z-index: -1;
+}
+
+/* background */
 body {
   background: url("../images/hosptial interior1.png")no-repeat fixed;
   background-size: 100vw 51vw;
   background-color: black;
+}
+
+/* make button appear on screen */
+#nav_bar_button{
+  z-index: 1;
+}
+
+/* top left door position & size */
+#top_left_door{
+  position: absolute;
+  height: auto;
+  width: 7.5vw;
+  top: 27vw;
+  left: 33vw;
+}
+
+/* bot left door position & size */
+#bot_left_door{
+  position: absolute;
+  height: auto;
+  width: 17.5vw;
+  top: 10.5vw;
+  left: 6vw;
+}
+
+/* bot right door position & size */
+#bot_right_door{
+  position: absolute;
+  height: auto;
+  width: 19vw;
+  top: 8.4vw;
+  left: 75vw;
+}
+
+/* makes background opaque when clicking a door */
+.hidden {
+  top: 0vw;
+  left: 0vw;
+  position: fixed;
+  visibility: hidden;
+  opacity: 0;
+  background: rgba(0, 0, 0, 0.7); /* makes background opaque */
+  transition: opacity 500ms;
+  height: 100vw;
+  width: 100vw;
+}
+
+/* contains word content */
+.content {
+  margin: 10vw auto;
+  padding: 1.5vw;
+  background: #fff;
+  border-radius: 0.26vw;
+  width: 40%; /* how wide box is */
+  position: relative;
+  transition: all 0s ease-in-out;
+  max-height: 30%;
+  overflow: auto;
+  font-size:1vw;
+  text-align: center;
+}
+
+/* Pop up close button */
+.content .close {
+  position: absolute;
+  top: 1.04vw;
+  right: 1.56vw;
+  transition: all 200ms;
+  font-size: 1.56vw;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+
+/* Color of close button when hovered on */
+.content .close:hover {
+  color: rgb(160, 165, 162);
+}
+
+/* make text visible when clicking on bottom left door */
+#bot_left_text:target{
+  visibility: visible;
+  opacity: 1;
+}
+
+/* make text visible when clicking on bottom right door */
+#bot_right_text:target{
+  visibility: visible;
+  opacity: 1;
 }
