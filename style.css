@@ -53,6 +53,7 @@
   opacity: 0;
 }
 
+/* Car Driver */
 #car_driver {
   position: absolute;
   left: 2.5vw ;
@@ -81,7 +82,7 @@
   opacity: 0;
 }
 
-  
+/*Solo walker*/  
 #solo_walker {
   position: absolute;
   left: 28.32vw;
@@ -112,13 +113,68 @@
   opacity: 0;
 }
 
-#couple {
+/* Couple Boy */
+#boy {
   position: absolute;
-  left: 20rem ;
-  top: 20rem;
+  left: 6vw ;
+  top: 35vw;
   width: 7vw;
   height: auto;
 }
+#boy img.visible { /* size for boy photo*/
+  width: 4vw;
+  height: auto;
+}
+#boy img.hidden { /* Replaces image & opaques the surounding when hovered on*/
+  position: absolute;
+  visibility: hidden;
+  left: -.5vw ;
+  top: 0vw;
+  width: 4.5vw;
+  height: auto;
+  object-fit: contain;
+  opacity: 0;
+  transition: opacity .2s;
+  background: rgba(0, 0, 0, 0.7); /* makes background opaque */
+  border-radius: 25px;
+}
+#boy:hover img.hidden { /* makes sad photo visible */
+  opacity: 1;
+  visibility: visible;
+}
+#boy:hover img.visible { /*makes happy photo hidden */
+  opacity: 0;
+}
+
+/* Couple Girl */
+#girl {
+  position: absolute;
+  left: 9.6vw ;
+  top: 35vw;
+  width: 3.8vw;
+  height: auto;
+}
+#girl img.hidden { /* Replaces image & opaques the surounding when hovered on*/
+  position: absolute;
+  visibility: hidden;
+  left: 0vw ;
+  top: 0vw;
+  width: 3.8vw;
+  height: auto;
+  object-fit: contain;
+  opacity: 0;
+  transition: opacity .2s;
+  background: rgba(0, 0, 0, 0.7); /* makes background opaque */
+  border-radius: 25px;
+}
+#girl:hover img.hidden { /* makes sad photo visible */
+  opacity: 1;
+  visibility: visible;
+}
+#girl:hover img.visible { /*makes happy photo hidden */
+  opacity: 0;
+}
+
 
 /* BACKGROUND */
 body {
