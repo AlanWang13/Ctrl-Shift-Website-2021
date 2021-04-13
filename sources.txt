@@ -1,0 +1,26 @@
+Navigation Bar - https://codepen.io/bowties/pen/QzbpRw
+Imagine hobor effect - https://sirv.com/help/articles/hover-change-image/ 
+2019 ctrl shift project Al’s - https://ursosad.github.io/Ctrl-Shift/CTRL+Shift/Art2.html
+Linking images to pages https://www.w3schools.com/html/tryit.asp filename=tryhtml_links_image
+Popups: https://codepen.io/imprakash/pen/GgNMXO
+Hover shadow: https://stackoverflow.com/questions/3186688/drop-shadow-for-png-image-in-css
+Hotlines: https://spoonuniversity.com/healthier/7-hotlines-that-exist-in-case-you-need-them
+menu button source: https://image.flaticon.com/icons/png/512/78/78075.png 
+Depression info: https://www.cdc.gov/nchs/products/databriefs/db379.htm
+https://www.psychiatry.org/patients-families/depression/what-is-depression
+https://www.healthline.com/health/depression/facts-statistics-infographic#Types-of-depression
+PTSD info: https://www.mayoclinic.org/diseases-conditions/post-traumatic-stress-disorder/symptoms-causes/syc-20355967
+https://www.psychiatry.org/patients-families/ptsd/what-is-ptsd
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5047000/#:~:text=In%20one%20major%20study%20of,as%2020%25%20to%2030%25.&text=As%20many%20as%20500%2C000%20U.S.,have%20been%20diagnosed%20with%20PTSD.
+Schizophrenia info: https://www.mayoclinic.org/diseases-conditions/schizophrenia/symptoms-causes/syc-20354443?utm_source=Google&utm_medium=abstract&utm_content=Schizophrenia&utm_campaign=Knowledge-panel
+https://www.psychiatry.org/patients-families/schizophrenia/what-is-schizophrenia
+https://www.treatmentadvocacycenter.org/evidence-and-research/learn-more-about/25-schizophrenia-fact-sheet#:~:text=Schizophrenia%20is%20a%20chronic%20and%20severe%20neurological%20brain%20disorder%20estimated,untreated%20in%20any%20given%20year.
+Eating disorder info: https://www.psychiatry.org/patients-families/eating-disorders/what-are-eating-disorders
+Anxiety: https://www.mayoclinic.org/diseases-conditions/anxiety/symptoms-causes/syc-20350961
+https://www.healthline.com/health/anxiety-symptoms#types
+PTSD story: https://www.reddit.com/r/PTSDCombat/comments/kppq15/rough_day_from_ied_anniversary_and_fireworks_last/
+Depression story: https://www.reddit.com/r/depressed/comments/mma2bp/if_you_end_up_reading_this_thank_you/
+Eating disorder story: https://www.reddit.com/r/EatingDisorders/comments/miheuj/request_i_fell_into_a_hole_of_binge_eating_and_i/
+Schizophrenia story: https://www.reddit.com/r/schizophrenia/comments/hz7pog/my_schizophrenia_story/
+Anxiety story: https://www.reddit.com/r/Anxiety/comments/mmq4l8/work_anxiety_and_no_confidence_in_myself/
+

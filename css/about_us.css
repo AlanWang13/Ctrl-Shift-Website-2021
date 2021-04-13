@@ -54,7 +54,7 @@ img {
 }
 
 /*This allows the text of our information to appear when clicked and held*/
-.container:active .overlay_text {
+.container:hover .overlay_text {
     opacity: 1;
     text-align: center;
 }
@@ -70,7 +70,7 @@ img {
 }
 
 /*This allows our pictures to appear when clicked and held*/
-.container:active .uverlay {
+.container:hover .uverlay {
     opacity: 1;
 }
 
@@ -85,4 +85,161 @@ img {
 
 .Alan {
     left: 66vw;
+}
+
+
+/* NAVIGATION BAR */
+
+/* Center all navigation buttons */
+.button {
+  text-decoration: none;
+  text-align: center;
+}
+
+/* Locaiton of menu button */
+#nav_bar_button{
+  position:absolute;
+  left:0.5vw;
+  top:0.5vw;
+  width:3.12vw;
+}
+
+/* location of navigation button texts */
+#nav_bar_content{
+  position:absolute;
+  width:4.165vw;
+  height:4.165vw;
+  border:.26vw solid orange;
+  border-radius:5.2vw;
+  background:orange;
+  transition:.6s;
+}
+
+/* How tall the drop down menu would be */
+#nav_bar_content:hover{
+  height:16.49vw;
+}
+
+/* How the button would look like */
+#click_me{
+  position:absolute;
+  top:0vw;
+  background:transparent;
+  width:3.9vw;
+  color:transparent;
+  padding-top:0.26vw;
+  padding-bottom:0.26vw;
+  font-family:Georgia, serif;
+  font-size:0.73vw;
+  border:0.13vw solid transparent;
+  border-radius:5.2vw;
+  cursor:pointer;
+  transition:.6s;
+}
+
+/* Location of button when hovering menu button */
+#nav_bar_content:hover > #click_me{
+  top:4.685vw;
+  color:black;
+  background:dimgrey;
+  padding-bottom:0.26vw;
+}
+
+
+#home_btn{
+  position:absolute;
+  top:0vw;
+  background:transparent;
+  width:3.9vw;
+  color:transparent;
+  padding-top:0.26vw;
+  padding-bottom:0.26vw;
+  font-family:Georgia, serif;
+  font-size:0.73vw;
+  border:0.13vw solid transparent;
+  border-radius:5.2vw;
+  cursor:pointer;
+  transition:.6s;
+}
+
+#nav_bar_content:hover > #home_btn{
+  top:4.685vw;
+  color:black;
+  background:dimgrey;
+  padding-bottom:0.26vw;
+}
+
+#help_btn{
+  position:absolute;
+  top:0vw;
+  background:transparent;
+  width:3.9vw;
+  color:transparent;
+  padding-top:0.26vw;
+  padding-bottom:0.26vw;
+  font-family:Georgia, serif;
+  font-size:0.73vw;
+  border:0.13vw solid transparent;
+  border-radius:5.2vw;
+  cursor:pointer;
+  transition:.6s;
+}
+
+#nav_bar_content:hover > #help_btn{
+  top:7.289vw;
+  color:black;
+  background:dimgrey;
+  padding-bottom:0.26vw;
+}
+
+#info_btn{
+  position:absolute;
+  top:0vw;
+  background:transparent;
+  width:3.9vw;
+  color:transparent;
+  padding-top:0.26vw;
+  padding-bottom:0.26vw;
+  font-family:Georgia, serif;
+  font-size:0.73vw;
+  border:0.13vw solid transparent;
+  border-radius:5.2vw;
+  cursor:pointer;
+  transition:.6s;
+}
+
+#nav_bar_content:hover > #info_btn{
+  top:9.89vw;
+  color:black;
+  background:dimgrey;
+  padding-bottom:0.26vw;
+}
+
+
+#about_us_btn{
+  position:absolute;
+  top:0vw;
+  background:transparent;
+  width:3.9vw;
+  color:transparent;
+  padding-top:0.26vw;
+  padding-bottom:0.26vw;
+  font-family:Georgia, serif;
+  font-size:0.73vw;
+  border:0.13vw solid transparent;
+  border-radius:5.2vw;
+  cursor:pointer;
+  transition:.6s;
+}
+
+#nav_bar_content:hover > #about_us_btn{
+  top:12.49vw;
+  color:black;
+  background:dimgrey;
+  padding-bottom:0.26vw;
+}
+
+.center {
+  text-align: center;
+  border: transparent;
 }

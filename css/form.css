@@ -1,0 +1,10 @@
+iframe{
+  display:block;
+  width: 100vw;
+  height: 100vw;
+  margin: 0 auto;
+}
+
+html{
+  overflow: hidden;
+}
