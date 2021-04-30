@@ -1,3 +1,4 @@
+/* survey size */
 iframe{
   display:block;
   width: 100vw;
@@ -5,6 +6,7 @@ iframe{
   margin: 0 auto;
 }
 
+/* can not scroll horizontally */
 html{
   overflow-x: hidden;
 }

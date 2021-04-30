@@ -1,48 +1,74 @@
 <!DOCTYPE>
 <html>
     <head>
-        <title>about us Page</title>
+        <title>About Us</title>
         <link href="../css/about_us.css" type="text/css" rel="stylesheet">
+        <link href="../css/nav_bar.css"  type="text/css" rel="stylesheet"/>
     </head>
     <body>
       <!--home page, about us, info page , help page-->
       <div id="nav_bar">
         <div id="nav_bar_content">
-          <img id="nav_bar_button" src="../images/menu button.png">
+          <img id="nav_bar_button" src="https://image.flaticon.com/icons/png/512/78/78075.png">
           <a class="button" id="home_btn" href="../index.html">Home</a>
           <a class="button" id="help_btn" href="hosptial.html">Help</a>
           <a class="button" id="info_btn" href="library.html">Info</a>
           <a class="button" id="about_us_btn" href="about_us.html">About Us</a>
         </div>      
       </div>
-      <!--There are three main containers to start with-->
-      <div class="container Al">
-          <!--Next, we each have a container for me (Al) which shows a photo of me when the page is first loaded-->
-          <img src="../images/about/Als.jpg">
+      
+      <!--Al Container (Left)-->
+      <div class="container" id="al">
+          <!--Picture of Al and small description-->
+          <img src="../images/about/al.jpg">
           
-          <!--another overlay that shows a picture and information about me (Al) when clicked and held-->
-          <div class="uverlay">
-              <img src="../images/about/Alsleep.png">
+          <div class="text">
+            <u><b>Al Amin</b></u><br>
+            <p>I'm a Junior at the Academy at Palumbo. I tend to get lost in my head a lot. I enjoy playing video games, running, and soccer. I also dream a lot.</p>
           </div>
-          <div class="overlay_text"><u><b>Al Amin</b></u>
-              <br>I'm a Junior at the Academy at Palumbo. I tend to get lost in my head a lot and i'm known for sleeping in class. i play a lot of video games, soccer, and i dream a lot.
+          
+          <!-- When hovered display hidden image -->
+          <div class="overlay">
+            <img src="../images/about/al_sleep.png">
           </div>
       </div>
-      <!--Inspirational Inspiration-->
-      <div class="container Inspiration">
-        <!--a photo of Al and Alan and information container about what inspired us two to start this website-->
-        <div class="center"><u><b>Inspiration</b></u></div>
-            <br> During the quarantine a rise in mentel illnesses were rising such as depression. We felt that this needed more awarness. We saw that Ctrl Shift was starting up and we saw this as an opportunities to try and spread awarness about the imporants of mental health. 
+
+      <!--Inspiration Container (Middle)-->
+      <div class="container" id="inspiration">
+
+        <!-- When hovered on display image and text -->
+        <img src="../images/about/alpaca.jpg">
+        <div class="text">
+                <u><b>Inspiration</b></u><br>
+                <p>During quarantine there was a rise in depression and other mental illnesses. We felt that people should be aware of this rise and mental illness in general. Ctrl + Shift gave us the oppertunity to spread awarness about the imporants of mental health.</p>
+              </div>
+         <!-- When hovered display hidden image -->
+          <div class="overlay">
+            <img id="upside_down" src="../images/about/alpaca.jpg">
+            <div class="text">
+                <u><b>Inspiration</b></u><br>
+                <p>During quarantine there was a rise in depression and other mental illnesses. We felt that people should be aware of this rise and mental illness in general. Ctrl + Shift gave us the oppertunity to spread awarness about the imporants of mental health.</p>
+              </div>
+          </div>
+        </div>
       </div>
-      <!--Last name conatiner-->
-      <div class="container Alan">
-          <!--  a container for Alan which shows a photo of Alan when the page is first loaded-->
-          <img src="../images/about/Alan.PNG">
-          <!-- shows a picture and information about Alan when clicked and held-->
-          <div class="uverlay">
-              <img src="../images/about/Alansleep.png"></div>
-          <div class="overlay_text"><u><b>Alan Wang</b></u>
-              <br>I'm a Junior at the Academy at Palumbo. I've had some experience before my junior year. I enjoy running and do track and field. I also like playing games.</div>
-      </div>
+
+      <!--Alan Container (Right)-->
+      <div class="container" id="alan">
+          <!--Picture of Alan-->
+          <div>
+            <img id="alan_image" src="../images/about/alan2.jpg">
+          </div>
+          <div class="text">
+            <u><b>Alan Wang</b></u><br>
+              <p>I'm a Junior at the Academy at Palumbo. I enjoy coding, running and playing video games. I run for my school's track team and, I also enjoy coding in my free time.</p>
+          </div>
+
+          <!-- When hovered display hidden image -->
+          <div class="overlay">
+            <img src="../images/about/alan_sleep.png">
+          </div>
+        </div>
+
     </body>
 </html>

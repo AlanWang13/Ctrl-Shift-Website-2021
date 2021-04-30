@@ -23,4 +23,4 @@ Depression story: https://www.reddit.com/r/depressed/comments/mma2bp/if_you_end_
 Eating disorder story: https://www.reddit.com/r/EatingDisorders/comments/miheuj/request_i_fell_into_a_hole_of_binge_eating_and_i/
 Schizophrenia story: https://www.reddit.com/r/schizophrenia/comments/hz7pog/my_schizophrenia_story/
 Anxiety story: https://www.reddit.com/r/Anxiety/comments/mmq4l8/work_anxiety_and_no_confidence_in_myself/
-
+Display href when loading into website: https://www.designcise.com/web/tutorial/how-to-redirect-to-another-web-page-using-javascript
