@@ -1,5 +1,7 @@
+/* no scrolling x axis */
 body{
   margin: 0px;
+  overflow-x: hidden;
 }
 
 /* Size of each container */
@@ -25,39 +27,48 @@ body{
 }
 
 /* Container Order */
+
+/*inspiration container*/
 #inspiration{
   top: 15vw;
   background-color: #901f3b;
 }
 
+/*alan container*/
 #alan{
   top: 45vw;
-  background-color:#fbb7dd;
-  
+  background-color:#fbb7dd; 
 }
 
+/*al container*/
 #al{
   top: 75vw;
   background-color:#ff92c4;
 }
 
 /* Image locations */
+
+/* location of alpaca image */
 #alpaca_image{
   right: 5vw;
   top: 5vw;
 }
 
+/* location of alan image */
 #alan_image{
   left: 5vw;
   top: 5vw;
 }
 
+/* location of al image */
 #al_image{
   right: 5vw;
   top: 5vw;
 }
 
 /*Text*/
+
+/* location of inspiration text */
 #inspiration_text{
   position: absolute;
   text-align: center;
@@ -66,6 +77,7 @@ body{
   font-size: 2vw;
 }
 
+/* location of al text */
 #al_text{
   position: absolute;
   text-align: center;
@@ -74,6 +86,7 @@ body{
   font-size: 2vw;
 }
 
+/* location of alan text */
 #alan_text{
   position: absolute;
   text-align: center;
