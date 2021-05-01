@@ -1,77 +1,106 @@
-@import url('https://fonts.googleapis.com/css?family=Quicksand');
-
-/**Make page unscrollable for visual purposes**/
-body {
-    background-color: black;
-    margin: 0px;
+/* no scrolling x axis */
+body{
+  margin: 0px;
+  overflow-x: hidden;
 }
 
-/*size of the containers*/
-.container {
-    width: 33.33vw;
-    height: 100vh;
+/* Size of each container */
+.container{
+  height: 30vw;
+  width: 100vw;
+  position: absolute;
 }
 
-/*hidden images*/
-.overlay {
-    position: absolute;
-    top: 0vw;
-    left: 0vw;
-    width: 100%;
-    height: 100%;
-    opacity: 0;
-    transition: 1s ease;
+/* Image size */
+.image{
+  width: 20%;
+  height: 70%;
+  position: absolute;
 }
 
-/*when hovered on make hidden image visible*/
-.container:hover .overlay {
-    opacity: 1;
+/* Container Order */
+
+/*about us title container */
+#about_us_title{
+  text-align: center;
+  font-size: 2vw;
+  height: 15vw;
+  background-color: #dfb0d3;
 }
 
-/* text description atributes */
-.text {
+/*inspiration container*/
+#inspiration{
+  top: 15vw;
+  background-color: #db94be;
+}
+
+/*alan container*/
+#alan{
+  top: 45vw;
+  background-color:#d983a6; 
+}
+
+/*al container*/
+#al{
+  top: 75vw;
+  background-color:#d94773;
+}
+
+/* Image locations */
+
+/* location of alpaca image */
+#alpaca_image{
+  right: 5vw;
+  top: 5vw;
+}
+
+/* location of alan image */
+#alan_image{
+  left: 5vw;
+  top: 5vw;
+}
+
+/* location of al image */
+#al_image{
+  right: 5vw;
+  top: 5vw;
+}
+
+/*Text*/
+
+/* location and size of inspiration text */
+#inspiration_text{
   position: absolute;
   text-align: center;
-  top: 0vw;
-  left: 0vw;
-  color: black;
-  font-size: 1.2vw;
-  background-color: white;
-  opacity: .7; 
+  top: 8.5vw;
+  width: 70vw;
+  font-size: 2vw;
 }
 
-/* container positions */
-#al {
-  left: 0vw;
+/* location and size of al text */
+#al_text{
   position: absolute;
+  text-align: center;
+  top: 8.5vw;
+  width: 70vw;
+  font-size: 2vw;
 }
 
-#inspiration {
-  left: 33.33vw;
+/* location and size of alan text */
+#alan_text{
   position: absolute;
-}
-
-#alan {
-  left: 66.6vw;
-  position: absolute;
-}
-
-/* make image upside down */
-#upside_down{
-  transform: scaleY(-1)
+  text-align: center;
+  top: 8.5vw;
+  left: 28vw;
+  width: 70vw;
+  font-size: 2vw;
 }
 
 
-/* nav bar button size */
-#nav_bar_button{
-  width:auto;
-  height: auto;
-}
-
-/* move nav bar */
+/* nav bar appear on top of everything */
 #nav_bar{
   z-index: 1;
   position: absolute;
-  margin-top: 8.5vw;
-  margin-left: .3vw;
+  left: 0.5vw;
+  top: 0.5vw;
 }
