@@ -2,15 +2,8 @@
 
 /**Make page unscrollable for visual purposes**/
 body {
-    overflow: hidden;
     background-color: black;
     margin: 0px;
-}
-
-/*making sure the images are full size*/
-img {
-    width: 100%;
-    height: 100%;
 }
 
 /*size of the containers*/

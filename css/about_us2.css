@@ -1,0 +1,92 @@
+body{
+  margin: 0px;
+}
+
+/* Size of each container */
+.container{
+  height: 30vw;
+  width: 100vw;
+  position: absolute;
+}
+
+/* Size of about us title */
+#about_us_title{
+  text-align: center;
+  font-size: 2vw;
+  height: 15vw;
+  background-color: #bf8065;
+}
+
+/* Image size */
+.image{
+  width: 20%;
+  height: 70%;
+  position: absolute;
+}
+
+/* Container Order */
+#inspiration{
+  top: 15vw;
+  background-color: #901f3b;
+}
+
+#alan{
+  top: 45vw;
+  background-color:#fbb7dd;
+  
+}
+
+#al{
+  top: 75vw;
+  background-color:#ff92c4;
+}
+
+/* Image locations */
+#alpaca_image{
+  right: 5vw;
+  top: 5vw;
+}
+
+#alan_image{
+  left: 5vw;
+  top: 5vw;
+}
+
+#al_image{
+  right: 5vw;
+  top: 5vw;
+}
+
+/*Text*/
+#inspiration_text{
+  position: absolute;
+  text-align: center;
+  top: 8.5vw;
+  width: 70vw;
+  font-size: 2vw;
+}
+
+#al_text{
+  position: absolute;
+  text-align: center;
+  top: 8.5vw;
+  width: 70vw;
+  font-size: 2vw;
+}
+
+#alan_text{
+  position: absolute;
+  text-align: center;
+  top: 8.5vw;
+  left: 28vw;
+  width: 70vw;
+  font-size: 2vw;
+}
+
+
+/* move nav bar */
+#nav_bar{
+  z-index: 1;
+  position: absolute;
+  left: 0.5vw;
+}

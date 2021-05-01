@@ -45,12 +45,32 @@
   background: rgba(0, 0, 0, 0.7); /* makes background opaque */
   border-radius: 25px;
 }
+
+#dog_walker .img_description  { /* Gives a description and opaques the surounding when hovered on*/
+  position: absolute;
+  visibility: hidden;
+  left: -1vw ;
+  top: 13vw;
+  width: 6vw;
+  height: auto;
+  object-fit: contain;
+  opacity: 0;
+  transition: opacity .2s;
+  background: rgba(0, 0, 0, 0.7); /* makes background opaque */
+  border-radius: 25px;
+}
+
 #dog_walker:hover img.hidden { /* makes sad photo visible */
   opacity: 1;
   visibility: visible;
 }
 #dog_walker:hover img.visible { /*makes happy photo hidden */
   opacity: 0;
+}
+
+#dog_walker:hover .img_description { /* makes the description visable */
+  opacity: 1;
+  visibility: visible;
 }
 
 /* Car Driver */
@@ -74,6 +94,19 @@
   background: rgba(0, 0, 0, 0.7); /* makes background opaque */
   border-radius: 25px;
 }
+#car_driver .img_description { /* Gives a description & opaques the surounding when hovered on*/
+  position: absolute;
+  visibility: hidden;
+  left: 3vw;
+  top: -3vw;
+  width: 5vw;
+  height: auto;
+  object-fit: contain;
+  opacity: 0;
+  transition: opacity .2s;
+  background: rgba(0, 0, 0, 0.7); /* makes background opaque */
+  border-radius: 25px;
+}
 #car_driver:hover img.hidden {
   opacity: 1;
   visibility: visible;
@@ -82,6 +115,10 @@
   opacity: 0;
 }
 
+#car_driver:hover .img_description {
+  opacity: 1;
+  visibility: visible;
+}
 /*Solo walker*/  
 #solo_walker {
   position: absolute;
@@ -105,12 +142,25 @@
   background: rgba(0, 0, 0, 0.7); /* makes background opaque */
   border-radius: 25px;
 }
+#solo_walker .img_description { /* Gives a description & opaques the surounding when hovered on*/
+  position: absolute;
+  visibility: hidden;
+  opacity: 0;
+  height: auto;
+  transition: opacity .2s;
+  background: rgba(0, 0, 0, 0.7); /* makes background opaque */
+  border-radius: 25px;
+}
 #solo_walker:hover img.hidden { /* makes sad photo visible */
   opacity: 1;
   visibility: visible;
 }
 #solo_walker:hover img.visible { /*makes happy photo hidden */
   opacity: 0;
+}
+#solo_walker:hover img_description { /* makes description visible */
+  opacity: 1;
+  visibility: visible;
 }
 
 /* Couple Boy */
@@ -138,6 +188,17 @@
   background: rgba(0, 0, 0, 0.7); /* makes background opaque */
   border-radius: 25px;
 }
+#boy .img_description { /* Gives a description & opaques the surounding when hovered on*/
+  position: absolute;
+  visibility: hidden;
+  width: 4.5vw;
+  height: auto;
+  object-fit: contain;
+  opacity: 0;
+  transition: opacity .2s;
+  background: rgba(0, 0, 0, 0.7); /* makes background opaque */
+  border-radius: 25px;
+}
 #boy:hover img.hidden { /* makes sad photo visible */
   opacity: 1;
   visibility: visible;
@@ -146,6 +207,10 @@
   opacity: 0;
 }
 
+#boy:hover img.hidden { /* makes description visible */
+  opacity: 1;
+  visibility: visible;
+}
 /* Couple Girl */
 #girl {
   position: absolute;
@@ -154,7 +219,7 @@
   width: 3.8vw;
   height: auto;
 }
-#girl img.hidden { /* Replaces image & opaques the surounding when hovered on*/
+#girl img.hidden { /* Gives description & opaques the surounding when hovered on*/
   position: absolute;
   visibility: hidden;
   left: 0vw ;
@@ -166,7 +231,21 @@
   transition: opacity .2s;
   background: rgba(0, 0, 0, 0.7); /* makes background opaque */
   border-radius: 25px;
+  
 }
+#girl .img_description { /* Gives description & opaques the surounding when hovered on*/
+  position: absolute;
+  visibility: hidden;
+  width: 3.8vw;
+  height: auto;
+  object-fit: contain;
+  opacity: 0;
+  transition: opacity .2s;
+  background: rgba(0, 0, 0, 0.7); /* makes background opaque */
+  border-radius: 25px;
+  
+}
+
 #girl:hover img.hidden { /* makes sad photo visible */
   opacity: 1;
   visibility: visible;
@@ -175,6 +254,10 @@
   opacity: 0;
 }
 
+#girl:hover .img_description { /* makes description visible */
+  opacity: 1;
+  visibility: visible;
+}
 
 /* BACKGROUND */
 body {
