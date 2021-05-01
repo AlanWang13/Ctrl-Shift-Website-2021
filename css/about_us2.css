@@ -11,14 +11,6 @@ body{
   position: absolute;
 }
 
-/* Size of about us title */
-#about_us_title{
-  text-align: center;
-  font-size: 2vw;
-  height: 15vw;
-  background-color: #bf8065;
-}
-
 /* Image size */
 .image{
   width: 20%;
@@ -28,22 +20,30 @@ body{
 
 /* Container Order */
 
+/*about us title container */
+#about_us_title{
+  text-align: center;
+  font-size: 2vw;
+  height: 15vw;
+  background-color: #dfb0d3;
+}
+
 /*inspiration container*/
 #inspiration{
   top: 15vw;
-  background-color: #901f3b;
+  background-color: #db94be;
 }
 
 /*alan container*/
 #alan{
   top: 45vw;
-  background-color:#fbb7dd; 
+  background-color:#d983a6; 
 }
 
 /*al container*/
 #al{
   top: 75vw;
-  background-color:#ff92c4;
+  background-color:#d94773;
 }
 
 /* Image locations */
@@ -68,7 +68,7 @@ body{
 
 /*Text*/
 
-/* location of inspiration text */
+/* location and size of inspiration text */
 #inspiration_text{
   position: absolute;
   text-align: center;
@@ -77,7 +77,7 @@ body{
   font-size: 2vw;
 }
 
-/* location of al text */
+/* location and size of al text */
 #al_text{
   position: absolute;
   text-align: center;
@@ -86,7 +86,7 @@ body{
   font-size: 2vw;
 }
 
-/* location of alan text */
+/* location and size of alan text */
 #alan_text{
   position: absolute;
   text-align: center;
@@ -97,9 +97,10 @@ body{
 }
 
 
-/* move nav bar */
+/* nav bar appear on top of everything */
 #nav_bar{
   z-index: 1;
   position: absolute;
   left: 0.5vw;
+  top: 0.5vw;
 }
