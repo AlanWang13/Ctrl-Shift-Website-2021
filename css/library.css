@@ -12,6 +12,7 @@ body {
   background: url("../images/bookshelf.png")repeat-x center top fixed;
   background-size: 89vw 51vw;
   background-color: black;
+  overflow: hidden;
 }
 
 /* atributes for every book */
